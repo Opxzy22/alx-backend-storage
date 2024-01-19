@@ -1,6 +1,4 @@
 -- create a users table in the holberton database
-USE holberton;
-
 -- create user table if not already exist
 -- create the id, email, name and country column
 CREATE TABLE IF NOT EXISTS users (

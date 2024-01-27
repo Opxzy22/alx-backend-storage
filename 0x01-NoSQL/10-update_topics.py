@@ -3,9 +3,10 @@
 a function that changes all topic of school
 document based on the name
 """
+from typing import List
 
 
-def update_topics(mongo_collection, name, topics):
+def update_topics(mongo_collection, name: str, topics: List[str]):
     """
     mongo collection:
                     the pymongo collection object
